@@ -1,6 +1,6 @@
 /* 
 API Link:
-https://api.exchangerate-api.com/v4/latest/usd */
+https://api.exchangerate-api.com/v4/latest/ */
 
 // Get elements by ID
 const from_currency = document.getElementById('from_currency');
@@ -19,9 +19,9 @@ to_ammount.addEventListener('input', calculate);
 // add click event
 exchange.addEventListener('click', (e) => {
     e.preventDefault();
-	const data = from_currency.value;
+	const change = from_currency.value;
 	from_currency.value = to_currency.value;
-	to_currency.value = data;
+	to_currency.value = change;
 	calculate();
 });
 
