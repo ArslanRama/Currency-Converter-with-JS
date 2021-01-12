@@ -3,7 +3,7 @@
 box-sizing: border-box;
 }
 body {
-background: linear-gradient(to bottom, rgb(17, 19, 17) 0%,rgb(126, 180, 109) 50%, #428ea1 50%, #82aeb9 100%);
+background: linear-gradient(to bottom, rgb(17, 19, 17) 0%,rgb(96, 136, 84) 50%, #428ea1 50%, #82aeb9 100%);
 font-family: 'Muli', sans-serif;
 display: flex;
 flex-direction: column;
