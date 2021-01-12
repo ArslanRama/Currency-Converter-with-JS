@@ -3,7 +3,6 @@
 box-sizing: border-box;
 }
 body {
-/* background: linear-gradient(to bottom, #aff2ff 0%, #aff2ff 50%, #50dcff 50%, #50dcff 100%); */
 background: linear-gradient(to bottom, orange 0%,orange 50%, #50dcff 50%, #50dcff 100%);
 font-family: 'Muli', sans-serif;
 display: flex;
@@ -38,7 +37,6 @@ font-size: 22px;
 text-align: right;
 }
 .middle {
-/* color: #f59300; */
 color:red;
 display: flex;
 align-items: center;
